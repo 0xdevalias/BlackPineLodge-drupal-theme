@@ -1,0 +1,25 @@
+; $Id: blackpinelodge.info,v 1.10 2010/11/07 00:27:20 dries Exp $
+base theme = garland
+name = Black Pine Lodge
+description = A multi-column theme which can be configured to modify colors and switch between fixed and fluid width layouts. (Subthemed from Garland)
+package = BlackPineLodge
+version = 0.2
+core = 7.x
+
+engine=phptemplate
+
+
+stylesheets[all][] = style.css
+stylesheets[all][] = hackStyle.css
+stylesheets[all][] = mainMenuStyle.css
+stylesheets[all][] = footerMenuStyle.css
+stylesheets[print][] = print.css
+
+settings[garland_width] = fluid
+
+regions[header] = Header
+regions[pageBanner] = Page Banner
+regions[mainContent] = Main (Right) Content
+regions[sideContent] = Side (Left) Content
+regions[footer] = Footer
+regions[highlighted] = Highlighted

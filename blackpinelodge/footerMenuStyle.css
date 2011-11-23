@@ -1,0 +1,39 @@
+/*.region-footer ul.menu
+{
+	margin-left: auto;
+	margin-right: auto;
+}*/
+
+#footer .menu li
+{
+	float: right;
+	border-right: #fff 1px solid;
+	
+	padding-left: 10px;
+	padding-right: 10px;
+	
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#footer .menu li.first.leaf
+{
+	border-right: none;
+}
+
+#footer .menu li a:link,
+#footer .menu li a:visited,
+#footer .menu li a:active
+{
+	text-decoration: none;
+	
+	color:       #fff;
+	font-weight: normal;
+	font-size:   12px;
+	text-align:  center;
+}
+
+#footer .menu li a:hover
+{
+	text-decoration:  underline;
+}

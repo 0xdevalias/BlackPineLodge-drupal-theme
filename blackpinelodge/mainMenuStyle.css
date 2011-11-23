@@ -1,0 +1,91 @@
+.menu li
+{
+	display: inline;
+	list-style: none;
+}
+
+/*#header .menu li
+{
+	float: right;
+	
+	margin-top: 110px;
+	
+	border-bottom: none;
+}*/
+
+/*#header .expanded .menu li
+{
+	margin-top: 10px;
+}*/
+
+#header .block-superfish
+{
+	margin-top: 60px;
+}
+
+#header .block-superfish ul
+{
+	width: 100%;
+	/*background-color: #f00;*/
+}
+
+#header .block-superfish .menuparent ul
+{
+	/* Alignment */
+	margin-top: 5px;
+	width: inherit;
+	
+	/* Background */
+	/*background-color: #000;*/
+	background-image:url(images/blackpine-mainContentBackground.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	
+	/* Border */
+	border: #333 1px solid;
+	
+	/* Round the corners */
+	-moz-border-radius: 5px 5px;
+	border-radius: 5px 5px;
+}
+
+#header .block-superfish li
+{
+	float: right;
+	
+	background-color: inherit;
+	border: none;
+}
+
+#header .block-superfish a
+{
+	background-color: inherit;
+	color:       #fff;
+	
+	font-weight: normal;
+	font-size:   12px;
+	text-align:  center;
+	text-decoration: none;
+	
+	padding-bottom: 7px;
+	border: none;
+}
+
+#header .block-superfish a.active
+{
+	border-bottom: #ffd234 1px solid;
+}
+
+#header .block-superfish a:hover
+{
+	border-bottom: #fff 1px solid;
+}
+
+/*#header .menu li .active
+{
+	border-bottom: #ffd234 1px solid;
+	padding: 0px 0px 8px 0px;
+}*/
+
+
+

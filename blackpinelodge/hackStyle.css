@@ -1,0 +1,18 @@
+/* CSS hack to make columns the same length */
+#mainContent, #sideContent
+{
+	padding-bottom: 32767px;
+	margin-bottom: -32767px;
+}
+#contentArea
+{
+	overflow: hidden;
+}
+/* End CSS column length hack */
+
+/* Hack to stop weird border issues with tables */
+table
+{
+	border-collapse: separate;
+}
+/* End table hack */

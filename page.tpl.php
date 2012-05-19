@@ -24,26 +24,26 @@
         <?php print render($page['highlighted']); ?>
           </div>
         <?php endif; ?>
-      
+
         <?php if ($page['pageBanner']): ?>
           <div id="pageBanner" class="pageBanner clearfix">
             <?php print render($page['pageBanner']); ?>
           </div>
         <?php endif;?>
-      
+
         <div id="sideContent" class="sideContent clearfix">
           <?php print render($page['sideContent']); ?>
         </div>
-          
+
         <div id="mainContent" class="mainContent clearfix">
           <div id="mainContentHeading">
             <?php print render($title); ?>
           </div>
-          
+
           <?php print render($page['mainContent']); ?>
         </div>
       </div>
-      
+
       <div id="footer" class="footer clearfix">
         <?php //print $feed_icons ?>
         <?php print render($page['footer']); ?>
